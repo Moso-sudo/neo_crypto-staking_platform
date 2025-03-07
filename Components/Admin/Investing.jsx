@@ -2,7 +2,7 @@ import React from "react";
 
 //INTERNAL IMPORT 
 import ButtonCmp  from "./RegularComp/ButtonCmp";
-
+import { Notification } from "./Notification";
 
 
 const Investing = ({poolDetails}) => {
