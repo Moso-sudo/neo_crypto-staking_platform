@@ -4,6 +4,12 @@
 /* 
 background-color: #17142abb; Semi-transparent background */
 
+
+.bg-color{
+  background-color: #17142a;
+
+}
+
 /* //LOADER */
 .new-loader-wrapper {
   position: fixed;

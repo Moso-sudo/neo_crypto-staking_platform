@@ -46,7 +46,7 @@ const index = () => {
 
 
   return (     
-  <>
+  <div className="bg-color">
   <Header/>
   <HeroSection
   poolDetails={poolDetails}
@@ -91,7 +91,7 @@ const index = () => {
     contactUs && <Contact setContactUs={setContactUs}/>
   }
   {loader &&<Loader/>}
-  </>
+  </div>
   );
 };
 

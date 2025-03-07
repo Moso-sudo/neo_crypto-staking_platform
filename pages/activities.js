@@ -1,7 +1,7 @@
 import React from "react";
 
 const activities = () => {
-  return <div>activities</div>;
+  return <div  className="bg-color">activities</div>;
 };
 
 export default activities;

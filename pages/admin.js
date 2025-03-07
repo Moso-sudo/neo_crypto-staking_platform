@@ -46,7 +46,7 @@ const admin = () => {
 
 
   return (
-    <>
+    <div className="bg-color">
        <Header page={"admin"}/>
       <AdminHead/>
       <AdminNav/>
@@ -77,7 +77,7 @@ const admin = () => {
       {!checkAdmin && <Auth/>}
     {loader && <Loader/>} 
     
-    </>
+    </div>
  
     
   );
