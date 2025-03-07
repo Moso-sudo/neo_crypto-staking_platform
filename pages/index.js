@@ -4,7 +4,7 @@ import {useAccount} from "wagmi";
 import {Header, HeroSection, 
   // Footer, 
     WithdrawModal,
-      Withdraw, 
+      // Withdraw, 
       Partners,
        Statistics, 
        Token, 
@@ -18,7 +18,7 @@ import {Header, HeroSection,
        import {
         CONTRACT_DATA, 
         deposit,
-        withdraw,
+        // withdraw,
         claimReward,
         addTokenToMetamask,
        } from "../Context/index";
@@ -59,10 +59,10 @@ const index = () => {
   setSelectedToken={setSelectedToken}
   />
   <Token poolDetails={poolDetails}/>
-  <Withdraw
+  {/* <Withdraw
   setWithdrawPoolID={setWithdrawPoolID}
   poolDetails={poolDetails}
-  />
+  /> */}
   <Notification poolDetails={poolDetails}/>
   <Partners/>
   <Ask setContactUs={setContactUs} />
@@ -79,7 +79,7 @@ const index = () => {
   setLoader={setLoader}
   />
   <WithdrawModal
-  withdraw={withdraw}
+  // withdraw={withdraw}
   withdrawPoolID={withdrawPoolID}
   address={address}
   setLoader={setLoader}

@@ -1,26 +1,28 @@
 import React from "react";
 //  INTERNAL IMPORT
-import {
-  TiSocialTwitter,
-  TiSocialFacebook,
-  TiSocialLinkedIn,
-} from "./ReactICON/index";
+import { TiSocialLinkedin } from "react-icons/ti";
+import { TiSocialFacebook } from "react-icons/ti";
+
+import { FaTelegram } from "react-icons/fa";
+
+
+
 
 const Footer = () => {
 
   const social = [
     {
       link: "#",
-      icon:<TiSocialTwitter/>,
+      icon:<FaTelegram />,
     },
 
     {
       link:"#",
-      icon: <TiSocialFacebook/>,
+      icon: <TiSocialFacebook />,
     },
       {
       link:"#",
-      icon: <TiSocialLinkedIn/>,
+      icon: <TiSocialLinkedin />,
     },
 
   ];
