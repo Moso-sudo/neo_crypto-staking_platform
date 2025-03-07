@@ -31,7 +31,7 @@ const Header = ({page}) => {
 
   ];
   return (
-    <header classname="header  bg-color" >
+    <header style={{backgroundColor :"#6d914b", }} classname="header" >
     <div className="container">
       <div className="row">
         <div className="col-12">
