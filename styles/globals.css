@@ -6,7 +6,7 @@ background-color: #17142abb; Semi-transparent background */
 /* #17142a; */
 
 .bg-color{
-  background-color: #6a8852;
+  background-color: #17142a;
 
 }
 
@@ -32,7 +32,7 @@ background-color: #17142abb; Semi-transparent background */
   z-index: 1;
 }
 
-.new-circle {
+/* .new-circle {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -41,7 +41,7 @@ background-color: #17142abb; Semi-transparent background */
   left: 15%;
   transform-origin: 50%;
   animation: circle7124 0.5s alternate infinite ease;
-}
+} */
 
 @keyframes circle7124 {
   0% {

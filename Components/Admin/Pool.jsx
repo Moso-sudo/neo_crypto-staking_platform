@@ -133,8 +133,8 @@ const Pool = ({poolDetails, createPool, setLoader ,setModifyPoolID
                         <table className="deals__table">
                           <thead>
                             <tr>
-                              <th>Stake Afya Token</th>
-                              <th>Reward Afya Token</th>
+                              <th>Stake NEO Token</th>
+                              <th>Reward NEO Token</th>
                               <th>Deposit</th>
                               <th>Pool ID</th>
                               <th>APY</th>

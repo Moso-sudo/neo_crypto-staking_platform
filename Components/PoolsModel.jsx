@@ -45,7 +45,7 @@ const PoolsModel = ({
             </button>
             <h4 className="modal__title"> Invest</h4>
             <p className="modal__text">
-            Welcome to Afya , stake your AFY {selectedPool?.depositToken.name} token to earn reward.
+            Welcome to NEO , stake your NEO {selectedPool?.depositToken.name} token to earn reward.
             </p>
 
             <div className="modal__form">

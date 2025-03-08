@@ -31,7 +31,8 @@ const Header = ({page}) => {
 
   ];
   return (
-    <header style={{backgroundColor :"#6d914b", }} classname="header" >
+ 
+    <header style={{backgroundColor :"#17142a", }} classname="header" >
     <div className="container">
       <div className="row">
         <div className="col-12">

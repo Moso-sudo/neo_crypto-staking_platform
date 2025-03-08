@@ -2,7 +2,7 @@ import React,{useEffect, useState} from "react";
 import {useAccount} from "wagmi";
 //INTERNAL IMPORT
 import {Header, HeroSection, 
-  // Footer, 
+   Footer, 
     WithdrawModal,
       // Withdraw, 
       Partners,
@@ -66,8 +66,7 @@ const index = () => {
   <Notification poolDetails={poolDetails}/>
   <Partners/>
   <Ask setContactUs={setContactUs} />
-  {/* <Footer/> */}
-
+  <Footer/>
   {/*Modal */}
 
   <PoolsModel

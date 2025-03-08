@@ -7,7 +7,7 @@ const Auth = () => {
       <div className="modal-dialog modal-dialog-centered">
         <div className="modal__content">
           <h4 className="modal__title"><IoWarningOutline /></h4>
-          <p className="modal__text"> Sorry you are  <span>not autorized to</span> access Afya admin panel</p>
+          <p className="modal__text"> Sorry you are  <span>not autorized to</span> access NEO admin panel</p>
 
           <div className="modal__form">
             <a href="/" className="form__btn" type="button" > Go home</a>

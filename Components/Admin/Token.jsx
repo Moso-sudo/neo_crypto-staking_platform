@@ -19,9 +19,7 @@ const Token = ({token}) => {
         defaultValue={`${ADDRESS_EXPLORER}${STAKING_DAPP}`}
         />
           <p className="invest__text">
-            Stake Afya Token and earn rewards Ensuring a healthier, more equitable 
-            future for all through comprehensive coverage and quality care 
-            without financial worry and  free from-corruption
+            Stake NEO Tokens and earn rewards, while enjoying, security, transparency and seamless token staking experience
           </p>
 
           <table className="invest__table">

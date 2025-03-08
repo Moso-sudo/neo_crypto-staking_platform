@@ -37,12 +37,7 @@ const Footer = () => {
           </div>
 
           <p className="footer__tagline">
-          "Afya is a Web3-powered health fund system, leveraging 
-          the core tenets of decentralization and transparency. By building 
-          on blockchain technology, we ensure immutable records and auditable transactions,
-           fostering a trustless and corruption-resistant environment. This approach empowers 
-           individuals to take ownership of their healthcare through a platform designed for
-           inclusivity and accessibility, truly building for all within the Web3 ecosystem."
+          "
           </p>
         </div>
       <div className="col-6 col-md-4 col-lg-3 col-xl-2 order-3 order-md-2 order-lg-2 order-xl offset-md-2 offset-lg-0">
@@ -86,7 +81,7 @@ const Footer = () => {
         <div className="footer__nav">
           <a href="#">Help Center</a>
           <a href="#"> How it works</a>
-          <a href="#">Privacy polcy</a>
+          <a href="#">Privacy policy</a>
           <a href="#">Terms &amp; conditions</a>
         </div>
        </div>
@@ -107,7 +102,7 @@ const Footer = () => {
 
             </div>
             <small className="footer__copyright" >
-              @Afya, 2025, Created with love  by <a href="#">moso</a>
+              NEO, @2025, 
             </small>
 
           </div>
